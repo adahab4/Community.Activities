@@ -1,5 +1,5 @@
 parameters:
-  BuildProject: "$(Build.SourcesDirectory)/Activities/Community.Activities.sln"
+  BuildProject: ""
   BuildConfiguration: "Release"
   BuildPlatform: "Any CPU"
   VmImage: "windows-latest"
