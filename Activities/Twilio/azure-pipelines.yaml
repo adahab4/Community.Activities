@@ -8,6 +8,7 @@ trigger:
   paths:
     include:
       - Activities/Twilio/*
+      - Activities/Activities.Twilio.sln
 
 pr:
   branches:
@@ -20,6 +21,7 @@ pr:
   paths:
     include:
       - Activities/Twilio/*
+      - Activities/Activities.Twilio.sln
       
 jobs:
   - template: "../.pipelines/jobs/ci.yml"
