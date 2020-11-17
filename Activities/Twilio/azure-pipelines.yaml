@@ -5,7 +5,7 @@ pr: none
 jobs:
   - template: "../.pipelines/jobs/ci.yml"
     parameters:
-      BuildProject: "../Activities.Twilio.sln"
+      BuildProject: "Activities.Twilio.sln"
       BuildConfiguration: "Release"
       BuildPlatform: "Any CPU"
       rootPath: $(Build.SourcesDirectory)\Activities\Twilio\
