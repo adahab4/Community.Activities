@@ -10,13 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{92E6CB
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Google Spreadsheet", "Google Spreadsheet", "{A33C1A73-4FD5-499F-9742-001AC852D96E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoogleSpreadsheet", "GoogleSpreadsheet", "{A33C1A73-4FD5-499F-9742-001AC852D96E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSpreadsheet.Activities", "Google Spreadsheet\GoogleSpreadsheet.Activities\GoogleSpreadsheet.Activities.csproj", "{42BF8242-66AC-43B3-827A-F69DE1A15310}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSpreadsheet.Activities", "GoogleSpreadsheet\GoogleSpreadsheet.Activities\GoogleSpreadsheet.Activities.csproj", "{42BF8242-66AC-43B3-827A-F69DE1A15310}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSpreadsheet.Activities.Design", "Google Spreadsheet\GoogleSpreadsheet.Activities.Design\GoogleSpreadsheet.Activities.Design.csproj", "{EEE91FF5-B3AA-4DB7-BDED-9046BC0EB5E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSpreadsheet.Activities.Design", "GoogleSpreadsheet\GoogleSpreadsheet.Activities.Design\GoogleSpreadsheet.Activities.Design.csproj", "{EEE91FF5-B3AA-4DB7-BDED-9046BC0EB5E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSpreadsheet.Activities.UnitTest", "Google Spreadsheet\GoogleSpreadsheet.Activities.UnitTest\GoogleSpreadsheet.Activities.UnitTest.csproj", "{FF53D74C-98C1-4486-8548-C1B6FAA45133}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSpreadsheet.Activities.UnitTest", "GoogleSpreadsheet\GoogleSpreadsheet.Activities.UnitTest\GoogleSpreadsheet.Activities.UnitTest.csproj", "{FF53D74C-98C1-4486-8548-C1B6FAA45133}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Script", "Script", "{0B0557F4-1337-43CE-A070-AB63D04435EC}"
 EndProject
@@ -50,7 +50,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPath.Twilio.Activities", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Twilio", "Twilio", "{602B04F4-9C71-4CF0-9500-A25BB1AFC12D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSpreadsheet", "Google Spreadsheet\GoogleSpreadsheet\GoogleSpreadsheet.csproj", "{27EC779B-47AA-42C6-83E4-B101F6B286E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSpreadsheet", "GoogleSpreadsheet\GoogleSpreadsheet\GoogleSpreadsheet.csproj", "{27EC779B-47AA-42C6-83E4-B101F6B286E2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{ED3DF9E3-2366-483E-9124-3FA8766EEF77}"
 EndProject
