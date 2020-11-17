@@ -1,7 +1,26 @@
-trigger: none
+trigger:
+  branches:
+    include:
+      - master
+      - develop
+      - release/*
+      - support/*
+  paths:
+    include:
+      - Activities/Twilio/*
 
-pr: none
-
+pr:
+  branches:
+    include:
+      - master
+      - develop
+      - release/*
+      - support/*
+      - feature/*
+  paths:
+    include:
+      - Activities/Twilio/*
+      
 jobs:
   - template: "../.pipelines/jobs/ci.yml"
     parameters:
