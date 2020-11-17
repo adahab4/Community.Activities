@@ -11,6 +11,4 @@ jobs:
       rootPath: $(Build.SourcesDirectory)\Activities\Twilio\
       packagesDirectory: $(Build.SourcesDirectory)\Activities\packages\
       versionReference: "UiPath.Twilio.Activitie/Properties/AssemblyInfo.cs"
-
-
       
