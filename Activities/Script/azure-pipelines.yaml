@@ -8,7 +8,6 @@ trigger:
   paths:
     include:
       - Activities/Script/*
-      - Activities/Activities.Script.sln
 
 pr:
   branches:
@@ -21,7 +20,6 @@ pr:
   paths:
     include:
       - Activities/Script/*
-      - Activities/Activities.Script.sln
 
 jobs:
   - template: "../.pipelines/jobs/ci.yml"
