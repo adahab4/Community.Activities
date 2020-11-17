@@ -28,7 +28,7 @@ jobs:
     parameters:
       BuildProject: "../Activities.Python.sln"
       BuildConfiguration: "Release"
-      BuildPlatform: "Any CPU"
+      BuildPlatform: "AnyCPU"
       rootPath: $(Build.SourcesDirectory)\Activities\Python\
       packagesDirectory: $(Build.SourcesDirectory)\Activities\packages\
       restoreDependencies: 

@@ -28,7 +28,7 @@ jobs:
     parameters:
       BuildProject: "../Activities.Twilio.sln"
       BuildConfiguration: "Release"
-      BuildPlatform: "Any CPU"
+      BuildPlatform: "AnyCPU"
       rootPath: $(Build.SourcesDirectory)\Activities\Twilio\
       packagesDirectory: $(Build.SourcesDirectory)\Activities\packages\
       versionReference: "UiPath.Twilio.Activitie/Properties/AssemblyInfo.cs"

@@ -1,7 +1,7 @@
 parameters:
   BuildProject: ""
   BuildConfiguration: "Release"
-  BuildPlatform: "Any CPU"
+  BuildPlatform: "AnyCPU"
   VmImage: "windows-latest"
   Demands: 
   - msbuild

@@ -28,7 +28,7 @@ jobs:
     parameters:
       BuildProject: "../Activities.Database.sln"
       BuildConfiguration: "Release"
-      BuildPlatform: "Any CPU"
+      BuildPlatform: "AnyCPU"
       rootPath: $(Build.SourcesDirectory)\Activities\Database\
       packagesDirectory: $(Build.SourcesDirectory)\Activities\packages\
       restoreDependencies: 

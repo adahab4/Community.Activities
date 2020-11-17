@@ -28,7 +28,7 @@ jobs:
     parameters:
       BuildProject: "../Activities.Java.sln"
       BuildConfiguration: "Release"
-      BuildPlatform: "Any CPU"
+      BuildPlatform: "AnyCPU"
       rootPath: $(Build.SourcesDirectory)\Activities\Java\
       packagesDirectory: $(Build.SourcesDirectory)\Activities\packages\
       restoreDependencies: 

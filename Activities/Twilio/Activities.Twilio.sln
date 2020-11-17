@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPath.Credentials.Activities", "Credentials\UiPath.Credentials.Activities\UiPath.Credentials.Activities.csproj", "{ACB02213-A7C2-4BCA-ACE2-2BFAD6E0E54C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPath.Twilio.Activities", "UiPath.Twilio.Activities\UiPath.Twilio.Activities.csproj", "{6C7B3FE3-8F7C-46C4-ABF2-B7B1A0E70B77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|AnyCPU = Release|AnyCPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ACB02213-A7C2-4BCA-ACE2-2BFAD6E0E54C}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
-		{ACB02213-A7C2-4BCA-ACE2-2BFAD6E0E54C}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
-		{ACB02213-A7C2-4BCA-ACE2-2BFAD6E0E54C}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
-		{ACB02213-A7C2-4BCA-ACE2-2BFAD6E0E54C}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{6C7B3FE3-8F7C-46C4-ABF2-B7B1A0E70B77}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{6C7B3FE3-8F7C-46C4-ABF2-B7B1A0E70B77}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{6C7B3FE3-8F7C-46C4-ABF2-B7B1A0E70B77}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{6C7B3FE3-8F7C-46C4-ABF2-B7B1A0E70B77}.Release|AnyCPU.Build.0 = Release|AnyCPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
