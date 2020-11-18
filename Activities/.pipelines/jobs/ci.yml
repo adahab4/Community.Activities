@@ -51,5 +51,4 @@ jobs:
       BuildProject:       ${{ parameters.BuildProject }}
       BuildConfiguration: ${{ parameters.BuildConfiguration }}
       rootPath:           ${{ parameters.rootPath }}
-
-      
+     
